@@ -1,0 +1,129 @@
+*{
+    box-sizing:border-box;
+    margin:0px;
+    padding:0px;
+} 
+/* o cara gosta de usar esse asterisco mais 
+pra poder resetar a página e montar do 
+jeito dele, logo, ele deixa no início
+do css */
+
+header li{
+    display:inline;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+}
+
+body > header{
+    background-color:rgb(255, 30, 0);
+    padding:10px 10px;
+    color:white;
+}
+
+header li a {
+    color:white;
+    text-decoration:none;
+    margin-left:10px;
+    
+    
+}
+
+header li a:hover{
+    text-decoration:underline;
+}
+
+header .cont{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    
+}
+
+.cont{
+    width:100%px;
+    margin: 0 auto;
+}
+
+.artigos{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+
+.artigos article img{
+    width:100%;
+}
+
+.artigos article{
+    width:30%;
+}
+
+section{
+    padding:10px 2px;
+}
+
+section h2,
+.artigos article {
+    margin-bottom:10px;
+}
+
+.artigos article h3{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.artigos article a{
+    background-color:rgb(252, 8, 8);
+    color:white;
+    padding:8px;
+    display:inline-block;
+    text-decoration:none;
+    font-weight:500;
+    margin-top:8px;
+}
+
+.artigos article a:hover{
+    
+    text-decoration:underline;
+}
+
+.artigos article p{
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.artigos article h3{
+    font-size:25px;
+}
+
+.cont h2{
+    font-size:45px;
+}
+
+#travel{
+    background-color:rgba(255, 0, 0, 15%);
+}
+
+#travel .artigos article a{
+    background-color: rgba(255, 0, 0, 90%);
+}
+
+#can {
+    background-color:rgba(189, 139, 3, 20%);
+}
+
+#can .artigos article a{
+    background-color: rgba(223, 61, 3, 90%);
+}
+
+#tec{
+    background-color:rgba(128, 4, 128, 0.215);
+}
+#tec .artigos article a{
+    background-color:purple;
+}
+#movie{
+    background-color:rgba(4, 236, 31, 0.214);
+}
+#movie .artigos article a{
+    background-color:rgb(1, 178, 24);
+}
